@@ -1,0 +1,85 @@
+*{margin: 0; padding: 0;}
+*{color: white}
+#main
+{
+  background-color: black;
+  height: 500vh;
+}
+
+#top-bar
+{
+  box-shadow: 5px 5px 5px black;
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: darkorange;
+  width: auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+#immagine 
+{
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.menu a
+{
+  text-decoration: none;
+  color:black ;
+}
+.menu:hover
+{
+  color: black;
+  transform: scale(2);
+  transition: 0.2s;
+}
+input{color: black;}
+form
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#contact
+{
+  background-color: darkorange;
+}
+button{
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+#top-img
+{
+  display: flex;
+  justify-content: center;
+  height: 175px;
+}
+#nomeazienda
+{
+  text-align: center;
+  height: 175px;
+  width: 100%;
+}
+#contattaci
+{
+  display: flex;
+  height: 70;
+  justify-content: center;
+}
+#chi-siamo
+{
+  text-align: center;
+  height: 125px;
+}
